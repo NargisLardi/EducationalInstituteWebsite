@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Intermediate Courses</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: lightblue;
+  padding: 5px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: f2f2f2;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 500px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer 
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}   */
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+table {
+  font-family: arial, sans-serif;
+  
+  width: 100%;
+}
+
+td, th {
+  border: 2px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+  <h2>Courses We Offer</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+    <li><a href="intermediate.html">Intermediate Courses</a></li>
+      <li><a href="ug.html">UG Courses</a></li>
+      <li><a href="pg.html">PG Courses</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>UG Courses</h1>
+    <table>
+  <tr bgcolor="lightblue">
+    <th>Courses</th>
+    <th>Level</th>
+    <th>Fee Structure (in Rs.)</th>
+  </tr>
+  <tr>
+    <td>B.Tech</td>
+    <td>UG</td>
+    <td>1,50,000</td>
+  </tr>
+  <tr>
+    <td>B.Arch</td>
+    <td>UG</td>
+    <td>1,50,000</td>
+  </tr>
+  <tr>
+    <td>B.A.</td>
+    <td>UG</td>
+    <td>25,000</td>
+  </tr>
+   <tr>
+    <td>B.Com</td>
+    <td>UG</td>
+    <td>70,000</td>
+  </tr>
+   <tr>
+    <td>Food Tech.</td>
+    <td>UG</td>
+    <td>75,000</td>
+  </tr>
+   <tr>
+    <td>BBA</td>
+    <td>UG</td>
+    <td>75,000</td>
+  </tr>
+   <tr>
+    <td>BCA</td>
+    <td>UG</td>
+    <td>80,000</td>
+  </tr>
+ 
+ 
+</table>
+
+    
+
+
+</body>
+</html>
+
+
+  </article>
+</section>
+
+<!--
+<footer>
+  <p>Footer</p>
+</footer>-->
+
+</body>
+</html>
+
